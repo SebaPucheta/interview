@@ -18,7 +18,6 @@ export class LoginComponent {
     ) {}
 
     onLogin() {
-        console.log({email: this.email, password: this.password})
         this.auth.login({email: this.email, password: this.password})
         .subscribe(
             success => {

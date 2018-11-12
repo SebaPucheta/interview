@@ -24,7 +24,6 @@ export class CountryComponent {
     this.countryService.messages
     .subscribe(
       countries => {
-        console.log("subscribe", countries)
         this.countries = countries;
       },
       err => {
@@ -38,7 +37,6 @@ export class CountryComponent {
     .subscribe(
       success => {
         this.clean()
-        console.log(success)
       },
       err => {
         console.log('countryService.update====>', err) 
