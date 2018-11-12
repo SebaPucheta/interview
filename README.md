@@ -11,8 +11,8 @@
 
 1. `git clone {repository}`
 2. `cd interview`
-3. `lerna bootstrap`
-4. `npm install`
+3. `npm install`
+4. `lerna bootstrap`
 5. Ready to go!
 
 
