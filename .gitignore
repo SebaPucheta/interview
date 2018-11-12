@@ -1,0 +1,14 @@
+# compiled output
+packages/front/dist
+packages/front/tmp
+packages/front/e2e
+
+# dependencies
+node_modules/
+
+# IDEs and editors
+.vscode
+
+#System Files
+.DS_Store
+Thumbs.db

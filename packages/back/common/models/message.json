@@ -1,0 +1,45 @@
+{
+  "name": "Message",
+  "base": "Model",
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "description": "Country name"
+    },
+    "population": {
+      "type": "string",
+      "required": false,
+      "description": "Country population"
+    },
+    "id": {
+      "type": "Number",
+      "id": true,
+      "generated": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {
+    "get": {
+      "accepts": [
+        {
+          "arg": "msg",
+          "type": "string",
+          "http": {
+            "source": "query"
+          }
+        }
+      ],
+      "returns": {
+        "arg": "country",
+        "type": "array"
+      },
+      "http": {
+        "path": "/",
+        "verb": "get"
+      }
+    }
+  }
+}

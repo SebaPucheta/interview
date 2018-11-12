@@ -1,0 +1,7 @@
+{
+  "db": {
+    "url": "mongodb://SebaPucheta:Seba123456@ds157493.mlab.com:57493/test-webee",
+    "name": "db",
+    "connector": "mongodb"
+  }
+}

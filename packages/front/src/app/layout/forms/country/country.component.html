@@ -1,0 +1,19 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Form</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <mat-form-field>
+            <mat-select placeholder="Country" [(ngModel)]="selectedCountry">
+                <mat-option *ngFor="let country of countries" [value]="country.id">{{country.name}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Population" [(ngModel)]="population">
+        </mat-form-field>
+        <button mat-raised-button (click)="send()">Send</button>
+        <button mat-raised-button color="warn" (click)="clean()">Cancel</button>
+    </mat-card-content>
+</mat-card>
+
