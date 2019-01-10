@@ -3,7 +3,7 @@
 ### Prerequisites
 
 - [git](https://git-scm.com/): be sure to have **version >= 2.9** installed.
-- [Node.js](https://nodejs.org/en/): **version 8.9**.
+- [Node.js](https://nodejs.org/en/): **version >= 8.9**.
 - [npm](https://docs.npmjs.com/getting-started/installing-node#updating-npm): npm is intalled as part of node's installation, but it might be out of date, so update it.
 - [lerna](https://www.npmjs.com/package/lerna): install the tool globally and use it to deal with tasks across all the different packages that are part of this project. 
 
